@@ -7,3 +7,4 @@ png(filename = "plot2.png")
 plot(dfplot$DateTime,dfplot$Global_active_power, type="n", ylab = "Global Active Power (kilowatts)", xlab = "")
 lines(dfplot$DateTime,dfplot$Global_active_power, type = "l")
 dev.off()
+
